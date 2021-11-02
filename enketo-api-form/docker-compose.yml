@@ -1,0 +1,7 @@
+version: "3"
+services:
+  http:
+    build: .
+    ports:
+      - "8012:8000"
+    restart: unless-stopped
